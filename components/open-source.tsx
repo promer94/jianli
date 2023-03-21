@@ -86,7 +86,7 @@ export const OpenSource = () => {
         </div>
         <div className='text-gray-700 text-sm md:text-lg'>Collaborator</div>
         <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
-          Nextra 是一个基于 Next.js 的静态站点生成器，用于创建高性能的博客和文档网站。<a href='https://turbo.build' target='_blank'>Turbo</a>、 <a href="https://swc.rc" target='_blank'>SWC</a> 和 <a href='https://nodejs.org' target='_blank'>Node.js</a> 等知名项目和组织都在使用 Nextra 作为它们的文档解决方案。
+          Nextra 是一个基于 Next.js 的静态站点生成器，用于创建高性能的博客和文档网站。<a href='https://turbo.build' target='_blank'>Turbo</a>、 <a href="https://swc.rs" target='_blank'>SWC</a> 和 <a href='https://nodejs.org' target='_blank'>Node.js</a> 等知名项目和组织都在使用 Nextra 作为它们的文档解决方案。
           作为主要的开发者：
           <ul>
             <li>使用 TypeScript 重构了项目，完善项目的 Monorepo 基础设施。</li>
