@@ -10,12 +10,14 @@ export const PersonalInformation = () => {
         <a className='flex gap-2 items-center' href="mailto:yixuanxu94@outlook.com" >
           <Mail size={20} className='hidden md:block'></Mail>
           <Mail size={14} className='md:hidden'></Mail>
-          <span>邮箱</span>
+          <span className='print:hidden'>邮箱</span>
+          <span className='hidden print:inline'>yixuanxu94@outlook.com</span>
         </a>
-        <a className='flex gap-2 items-center' href="tel:+86 17386135610">
+        <a className='flex gap-2 items-center' href="about:blank">
           <Phone size={20} className='hidden md:block'></Phone>
           <Phone size={14} className='md:hidden'></Phone>
-          <span>电话</span>
+          <span className='print:hidden'>电话</span>
+          <span className='hidden print:inline'>+86 17386135610</span>
         </a>
         <a className='flex gap-2 items-center' href="https://github.com/promer94" target='_blank'>
           <Github size={20} className='hidden md:block'></Github>
