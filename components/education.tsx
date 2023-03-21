@@ -1,8 +1,10 @@
+import { GraduationCap } from 'lucide-react'
 export const Education = () => {
   return (
     <div className='mt-6 md:mt-12'>
-      <div className='flex gap-1 items-center'>
+      <div className='flex gap-4 items-center'>
         <div className='text-xl md:text-2xl font-semibold'>教育经历</div>
+        <GraduationCap size={20}></GraduationCap>
         <div className='flex-1 h-[1px] bg-black'></div>
       </div>
       <div className='mt-4 md:mt-8'>

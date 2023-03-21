@@ -5,8 +5,9 @@ export const PersonalInformation = () => {
   return (
     <section className='flex flex-col'>
       <h1 className='text-3xl md:text-4xl font-bold md:my-2'>许一旋</h1>
+      <div className='text-2xl md:text-2xl font-simibold md:my-2'>软件工程师</div>
       <div className='text-sm md:text-base my-4 gap:2 md:my-4 grid grid-cols-2 md:grid-cols-4 text-gray-700'>
-        <a className='flex gap-2 items-center' href="mailto:yixuanxu94@outlook.com">
+        <a className='flex gap-2 items-center' href="mailto:yixuanxu94@outlook.com" >
           <Mail size={20} className='hidden md:block'></Mail>
           <Mail size={14} className='md:hidden'></Mail>
           <span>邮箱</span>

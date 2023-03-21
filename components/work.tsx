@@ -1,8 +1,10 @@
+import { Briefcase } from 'lucide-react'
 export const Work = () => {
   return (
     <div className='my-4 md:my-6'>
-      <div className='flex gap-1 items-center'>
+      <div className='flex gap-4 items-center'>
         <div className='text-xl md:text-2xl font-semibold'>工作经历</div>
+        <Briefcase size={20}></Briefcase>
         <div className='flex-1 h-[1px] bg-black'></div>
       </div>
       <div className='my-4 md:my-6'>
