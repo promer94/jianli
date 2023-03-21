@@ -1,11 +1,15 @@
-import { Noto_Serif_SC } from 'next/font/google'
-
-const Noto = Noto_Serif_SC({ subsets:['latin'], weight: ['400', '500','700'] })
+import { Education } from '~/components/education';
+import { OpenSource } from '~/components/open-source';
+import { PersonalInformation } from '~/components/personal-information';
+import { Work } from '~/components/work';
 
 export default function Home() {
   return (
-    <main className={`${Noto.className} text-3xl`}>
-      许一旋
-    </main>
+    <>
+      <PersonalInformation></PersonalInformation>
+      <Work></Work>
+      <OpenSource></OpenSource>
+      <Education></Education>
+    </>
   )
 }
