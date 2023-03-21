@@ -2,8 +2,8 @@ import './globals.css';
 import { Analytics } from '@vercel/analytics/react';
 import { Container } from '~/components/container';
 export const metadata = {
-  title: '许一旋-前端工程师-简历',
-  description: '许一旋 前端工程师 南安普顿大学 硕士',
+  title: '许一旋-软件工程师-简历',
+  description: '许一旋 软件工程师 南安普顿大学-硕士',
 }
 
 export default function RootLayout({
