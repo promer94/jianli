@@ -66,7 +66,7 @@ export const OpenSource = () => {
         </div>
         <div className='text-gray-700 text-sm md:text-lg'>Collaborator</div>
         <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
-          SWR 是社区最流行的 React Hooks 库之一，用于数据获取和状态管理，NPM 每周下载量超过百万次。作为核心开发者：
+          <a href="https://github.com/vercel/swr">SWR</a> 是社区最流行的 React Hooks 库之一，用于数据获取和状态管理，NPM 每周下载量超过百万次。作为核心开发者：
           <ul>
             <li>为 SWR 添加了 React 18 支持，帮助 SWR 完成了 2.0 版本的发布。</li>
             <li>重构了 SWR 对外提供的 TyepScript 接口，提升了开发体验。</li>
@@ -86,7 +86,7 @@ export const OpenSource = () => {
         </div>
         <div className='text-gray-700 text-sm md:text-lg'>Collaborator</div>
         <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
-          Nextra 是一个基于 Next.js 的静态站点生成器，用于创建高性能的博客和文档网站。<a href='https://turbo.build' target='_blank'>Turbo</a>、 <a href="https://swc.rs" target='_blank'>SWC</a> 和 <a href='https://nodejs.org' target='_blank'>Node.js</a> 等知名项目和组织都在使用 Nextra 作为它们的文档解决方案。
+          <a href="https://github.com/shuding/nextra">Nextra</a> 是一个基于 Next.js 的静态站点生成器，用于创建高性能的博客和文档网站。<a href='https://turbo.build' target='_blank'>Turbo</a>、 <a href="https://swc.rs" target='_blank'>SWC</a> 和 <a href='https://nodejs.org' target='_blank'>Node.js</a> 等知名项目和组织都在使用 Nextra 作为它们的文档解决方案。
           作为主要的开发者：
           <ul>
             <li>使用 TypeScript 重构了项目，完善项目的 Monorepo 基础设施。</li>
@@ -106,7 +106,7 @@ export const OpenSource = () => {
           </a>
         </div>
         <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
-          Turbocache 是一个 Monorepo 远端缓存的服务端实现，可用于加速 Turborepo，Rush 和 Nx 等 Monorepo 构建工具的构建速度。使用 Next.js 、PlantScale 和 Cloudflare R1 实现。
+          <a href="https://github.com/promer94/turbocache">Turbocache</a> 是一个 Monorepo 远端缓存的服务端实现，可用于加速 Turborepo，Rush 和 Nx 等 Monorepo 构建工具的构建速度。使用 Next.js 、PlantScale 和 Cloudflare R1 实现。
           通过 Vercel，PlantScale 和 Cloudflare 的免费额度，你可以快速的部署一个 Turbocache 应用，用来加速你的 Monorepo。
         </div>
       </div>
