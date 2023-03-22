@@ -68,7 +68,7 @@ export const OpenSource = () => {
         <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
           SWR 是社区最流行的 React Hooks 库之一，用于数据获取和状态管理，NPM 每周下载量超过百万次。作为核心开发者：
           <ul>
-            <li>为 SWR 添加了对 React 18 支持，帮助 SWR 完成了 2.0 版本的发布。</li>
+            <li>为 SWR 添加了 React 18 支持，帮助 SWR 完成了 2.0 版本的发布。</li>
             <li>重构了 SWR 对外提供的 TyepScript 接口，提升了开发体验。</li>
             <li>帮助回答和修复社区的多个 issue 和 bug。</li>
           </ul>
