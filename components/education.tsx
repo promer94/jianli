@@ -1,13 +1,13 @@
 import { GraduationCap } from 'lucide-react'
 export const Education = () => {
   return (
-    <div className='mt-6 md:mt-12'>
+    <section className='my-6 md:my-6'>
       <div className='flex gap-4 items-center'>
         <div className='text-xl md:text-2xl font-semibold'>教育经历</div>
         <GraduationCap size={20}></GraduationCap>
         <div className='flex-1 h-[1px] bg-black'></div>
       </div>
-      <div className='mt-4 md:mt-8'>
+      <div className='my-6 md:my-6'>
         <div className='flex justify-between items-center md:text-xl'>
           <div className='font-medium md:text-xl'>南安普顿大学</div>
           <div className='text-gray-700 text-sm md:text-lg'>2017.09 ~ 2018.12</div>
@@ -17,7 +17,7 @@ export const Education = () => {
           <div className='text-gray-700'>南安普顿，英国</div>
         </div>
       </div>
-      <div className='mt-4 md:mt-8'>
+      <div className='my-6 md:my-6'>
         <div className='flex justify-between items-center md:text-xl'>
           <div className='font-medium md:text-xl'>利物浦大学</div>
           <div className='text-gray-700 text-sm md:text-lg'>2013.06 ~ 2017.06</div>
@@ -27,6 +27,6 @@ export const Education = () => {
           <div className='text-gray-700'>利物浦，英国</div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
