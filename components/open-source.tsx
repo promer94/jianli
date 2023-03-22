@@ -64,12 +64,12 @@ export const OpenSource = () => {
             </Suspense>
           </a>
         </div>
-        <div className='text-gray-700 text-sm md:text-lg'>Collaborator</div>
+        <div className='text-gray-700 text-sm md:text-lg'>核心开发者</div>
         <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
-          <a href="https://github.com/vercel/swr">SWR</a> 是社区最流行的 React Hooks 库之一，用于数据获取和状态管理，NPM 每周下载量超过百万次。作为核心开发者：
+          <a href="https://github.com/vercel/swr">SWR</a> 是社区最流行的 React Hooks 库之一，用于数据获取和状态管理，NPM 每周下载量超过百万次。
           <ul>
             <li>为 SWR 添加了 React 18 支持，帮助 SWR 完成了 2.0 版本的发布。</li>
-            <li>重构了 SWR 对外提供的 TyepScript 接口，提升了开发体验。</li>
+            <li>重构了 SWR 对外提供的 TypeScript 接口，提升了开发体验。</li>
             <li>帮助回答和修复社区的多个 issue 和 bug。</li>
           </ul>
         </div>
@@ -84,10 +84,9 @@ export const OpenSource = () => {
             </Suspense>
           </a>
         </div>
-        <div className='text-gray-700 text-sm md:text-lg'>Collaborator</div>
+        <div className='text-gray-700 text-sm md:text-lg'>核心开发者</div>
         <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
           <a href="https://github.com/shuding/nextra">Nextra</a> 是一个基于 Next.js 的静态站点生成器，用于创建高性能的博客和文档网站。<a href='https://turbo.build' target='_blank'>Turbo</a>、 <a href="https://swc.rs" target='_blank'>SWC</a> 和 <a href='https://nodejs.org' target='_blank'>Node.js</a> 等知名项目和组织都在使用 Nextra 作为它们的文档解决方案。
-          作为主要的开发者：
           <ul>
             <li>使用 TypeScript 重构了项目，完善项目的 Monorepo 基础设施。</li>
             <li>编写了 Nextra 的 Webpack 缓存插件，提升了构建速度。</li>
