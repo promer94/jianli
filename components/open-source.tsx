@@ -69,8 +69,8 @@ export const OpenSource = () => {
           <a href="https://github.com/vercel/swr">SWR</a> 是社区最流行的 React Hooks 库之一，用于数据获取和状态管理，NPM 每周下载量超过百万次。
           <ul>
             <li>为 SWR 添加了 React 18 支持，帮助 SWR 完成了 2.0 版本的发布。</li>
-            <li>重构了 SWR 对外提供的 TypeScript 接口，提升了开发体验。</li>
-            <li>帮助回答和修复社区的多个 issue 和 bug。</li>
+            <li>使用 TypeScript 严格模式重构了 SWR，调整优化了对外提供的 TypeScript 接口，提升了开发体验。</li>
+            <li>帮助回答和修复社区的多个 issue 和 bug, 累计贡献 80+ PR。</li>
           </ul>
         </div>
       </div>
@@ -90,7 +90,7 @@ export const OpenSource = () => {
           <ul>
             <li>使用 TypeScript 重构了项目，完善项目的 Monorepo 基础设施。</li>
             <li>编写了 Nextra 的 Webpack 缓存插件，提升了构建速度。</li>
-            <li>帮助回答和修复社区的多个 issue 和 bug。</li>
+            <li>帮助回答和修复社区的多个 issue 和 bug，累计贡献 30+ PR。</li>
           </ul>
         </div>
       </div>
