@@ -48,7 +48,7 @@ const TurbocacheStars = async () => {
 
 export const OpenSource = () => {
   return (
-    <div className='my-4 md:my-12'>
+    <div className='my-4 md:my-6'>
       <div className='flex gap-4 items-center'>
         <div className='text-xl md:text-2xl font-semibold'>开源项目</div>
         <PackageOpen size={20}></PackageOpen>
