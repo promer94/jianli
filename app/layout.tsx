@@ -2,15 +2,15 @@ import './globals.css';
 import { Analytics } from '@vercel/analytics/react';
 import { Noto_Serif_SC } from 'next/font/google'
 
-const Noto = Noto_Serif_SC({ 
-  subsets: ['latin'], 
+const Noto = Noto_Serif_SC({
+  subsets: ['latin'],
   weight: ['400', '500', '700'],
   variable: '--font-serif-sc'
 })
 
 export const metadata = {
-  title: '许一旋-软件工程师-简历',
-  description: '许一旋 软件工程师 南安普顿大学-硕士',
+  title: 'Resume 📝',
+  description: 'Resume of promer94',
 }
 
 export default function RootLayout({
