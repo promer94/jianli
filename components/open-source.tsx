@@ -59,7 +59,6 @@ export const OpenSource = () => {
           <a className='font-medium md:text-xl' href='https://swr.vercel.app' target="_blank">SWR</a>
           <a className='flex gap-2 items-center text-gray-700 text-sm md:text-lg' href='https://github.com/vercel/swr' target="_blank">
             <Suspense fallback={<Loading />}>
-              {/** @ts-expect-error */}
               <SWRStars />
             </Suspense>
           </a>
@@ -79,7 +78,6 @@ export const OpenSource = () => {
           <a className='font-medium md:text-xl' href='https://nextra.site' target="_blank">Nextra</a>
           <a className='flex gap-2 items-center text-gray-700 text-sm md:text-lg' href='https://github.com/shuding/nextra' target="_blank">
             <Suspense fallback={<Loading />}>
-              {/** @ts-expect-error */}
               <NextraStars />
             </Suspense>
           </a>
@@ -99,7 +97,6 @@ export const OpenSource = () => {
           <a className='font-medium md:text-xl' href='https://turbocache.vercel.app' target="_blank">Turbocache</a>
           <a className='flex gap-2 items-center text-gray-700 text-sm md:text-lg' href='https://github.com/promer94/turbocache' target="_blank">
             <Suspense fallback={<Loading />}>
-              {/** @ts-expect-error */}
               <TurbocacheStars />
             </Suspense>
           </a>
