@@ -10,7 +10,6 @@ export default function Home({ searchParams }: { searchParams: { password: strin
   return (
     <>
       <Suspense fallback={<Loading />}>
-        {/** @ts-expect-error */}
         <PersonalInformation password={password} />
       </Suspense>
       <Education></Education>
