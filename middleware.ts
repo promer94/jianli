@@ -22,12 +22,18 @@ function getLocale(request: NextRequest) {
 
 export function middleware(request: NextRequest) {
   // Check if there is any supported locale in the pathname
+  const host = request.nextUrl.hostname
   const pathname = request.nextUrl.pathname
   const pathnameIsMissingLocale = locales.every(
     (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
   )
   // Redirect if there is no locale
   if (pathnameIsMissingLocale) {
+    if (host.startsWith('jianli')) {
+      return NextResponse.redirect(
+        new URL(`/cn`, request.url)
+      )
+    }
     const locale = getLocale(request)
     if (locale.startsWith('zh')) {
       return NextResponse.redirect(
