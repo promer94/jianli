@@ -1,24 +1,10 @@
 import { Suspense } from 'react'
-import { Contribution } from '~/components/contribution';
-import { Education } from '~/components/education';
-import { OpenSource } from '~/components/open-source';
-import { PersonalInformation, Loading } from '~/components/personal-information';
-import { Work } from '~/components/work';
+import { Loading } from '~/components/personal-information';
 
-export default function Home({ searchParams }: { searchParams: { password: string } }) {
-  const { password }  = searchParams
+export default function Home() {
   return (
-    <>
-      <Suspense fallback={<Loading />}>
-        <PersonalInformation password={password} />
-      </Suspense>
-      <Education></Education>
-      <Work></Work>
-      <Contribution></Contribution>
-      <OpenSource></OpenSource>
-    </>
+    <Suspense fallback={<Loading />} />
   )
 }
 
 export const runtime = 'edge'
-export const revalidate = 86400
