@@ -8,7 +8,7 @@ export const Profile = () => {
         <div className='flex-1 h-[1px] bg-black'></div>
       </div>
       <div className='my-4 prose prose-sm prose-neutral max-w-none md:prose-base'>
-        Software engineer with 5 years of experience building complex web applications using TypeScript, React, and Next.js. Core developer for popular open source libraries SWR and Nextra. Spearheaded high-impact projects including developing an ad platform for Tencent and custom apps for CMGFintech. Known for rapidly delivering robust front-end code, collaborating cross-functionally, and consistently meeting tight deadlines. Passionate about shipping quality code and solving problems creatively.
+        Software engineer with 5 years of experience building complex web applications using TypeScript, React, and Next.js. Core developer for popular open source libraries SWR and Nextra. Spearheaded high-impact projects including developing advertising platform and mobile apps for Tencent and CMGFintech. Known for rapidly delivering robust code, collaborating cross-functionally, and consistently meeting tight deadlines. Passionate about shipping quality code and solving problems creatively.
       </div>
     </div>
   )

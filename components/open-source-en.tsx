@@ -66,8 +66,8 @@ export const OpenSource = () => {
         <div className='text-gray-700 text-sm md:text-lg'>Collaborator</div>
         <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
           <ul>
-            <li>Redesigned and implemented cache synchronization for SWR to make it compatible with React 18, shiped it in SWR 2.0</li>
-            <li>Improved TypeScript interface of SWR to provide better DX</li>
+            <li>Redesigned and implemented cache synchronization for SWR 2.0 to make it fully compatible with React 18.</li>
+            <li>Continuously improving TypeScript interface of SWR for better developer experience.</li>
             <li>Answering issues and fixing bugs, landed 80+ PRs so far.</li>
           </ul>
         </div>
@@ -84,8 +84,8 @@ export const OpenSource = () => {
         <div className='text-gray-700 text-sm md:text-lg'>Collaborator</div>
         <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
           <ul>
-            <li>Refactor the whole project with TypeScript and Turborepo</li>
-            <li>Built a webpack cache plugin for nextra, reduced the build time by 10%</li>
+            <li>Refactored the whole project with TypeScript and Turborepo.</li>
+            <li>Built a webpack cache plugin, reduced the total build time by 10%.</li>
             <li>Answering issues and fixing bugs, landed 30+ PRs so far.</li>
           </ul>
         </div>
@@ -100,7 +100,7 @@ export const OpenSource = () => {
           </a>
         </div>
         <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
-          <a href="https://github.com/promer94/turbocache">Turbocache</a> is remote caching service built with Next.js, PlanetScale and Cloudflare Workers to accelerate monorepo builds.
+          Turbocache is remote caching service built with Next.js, PlanetScale and Cloudflare R2 to accelerate monorepo builds.
           It could be used with popular monorepo tools like Nx, Rush, Turborepo, etc.
         </div>
       </div>
