@@ -1,5 +1,4 @@
 import { Mail, Phone, Github, Linkedin } from 'lucide-react'
-import { getAll } from '@vercel/edge-config';
 
 interface EdgeConfigItem {
   name: string;
@@ -18,28 +17,6 @@ interface EdgeConfigItem {
   password: string;
 
   [x: string]: any
-}
-
-const getPersionalInfo = async (password?: string) => {
-  const { password: edgePassword, ...rest } = await getAll<EdgeConfigItem>()
-  if (password === edgePassword) {
-    return rest
-  }
-  return {
-    name: 'promer94',
-    mail: {
-      href: '',
-      data: ''
-    },
-    phone: {
-      href: '',
-      data: ''
-    },
-    linkedin: {
-      href: '',
-      data: '领英'
-    }
-  }
 }
 
 const MailSection = ({ data = '', href = '' }: { data?: string, href?: string }) => {
@@ -93,8 +70,22 @@ export const Loading = () => {
   )
 }
 
-export const PersonalInformation = async ({ password }: { password?: string }) => {
-  const { name, mail, phone, linkedin } = await getPersionalInfo(password)
+export const PersonalInformation = () => {
+  const { name, mail, phone, linkedin } = {
+    name: 'promer94',
+    mail: {
+      href: '',
+      data: ''
+    },
+    phone: {
+      href: '',
+      data: ''
+    },
+    linkedin: {
+      href: '',
+      data: '领英'
+    }
+  }
   return (
     <section className='flex flex-col'>
       <h1 className='text-3xl md:text-4xl font-bold md:my-2'>{name}</h1>

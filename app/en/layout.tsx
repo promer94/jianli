@@ -7,7 +7,7 @@ const Inter = Inter_Font({
 })
 
 export const metadata = {
-  title: 'Resume-Software Engineer',
+  title: 'Resume',
   description: 'Resume of promer94',
 }
 

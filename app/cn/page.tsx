@@ -5,12 +5,11 @@ import { OpenSource } from '~/components/open-source';
 import { PersonalInformation, Loading } from '~/components/personal-information';
 import { Work } from '~/components/work';
 
-export default function Home({ searchParams }: { searchParams: { password: string } }) {
-  const { password }  = searchParams
+export default function Home() {
   return (
     <>
       <Suspense fallback={<Loading />}>
-        <PersonalInformation password={password} />
+        <PersonalInformation />
       </Suspense>
       <Education></Education>
       <Work></Work>
@@ -19,6 +18,3 @@ export default function Home({ searchParams }: { searchParams: { password: strin
     </>
   )
 }
-
-export const runtime = 'edge'
-export const revalidate = 86400

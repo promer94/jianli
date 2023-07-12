@@ -1,10 +1,3 @@
-import { Suspense } from 'react'
-import { Loading } from '~/components/personal-information';
-
 export default function Home() {
-  return (
-    <Suspense fallback={<Loading />} />
-  )
+  return null
 }
-
-export const runtime = 'edge'
