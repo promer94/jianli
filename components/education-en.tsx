@@ -13,7 +13,7 @@ export const Education = () => {
           <div className='text-gray-700 text-sm md:text-lg'>2017.09 ~ 2018.12</div>
         </div>
         <div className='flex justify-between items-center text-sm md:text-md'>
-          <div className='text-gray-700'>Data Science - Master of Science</div>
+          <div className='text-gray-700'>Data Science - MSc</div>
           <div className='text-gray-700'>Southampton - UK</div>
         </div>
       </div>
@@ -23,7 +23,7 @@ export const Education = () => {
           <div className='text-gray-700 text-sm md:text-lg'>2013.06 ~ 2017.06</div>
         </div>
         <div className='flex justify-between items-center text-sm md:text-md'>
-          <div className='text-gray-700'>Computer Sinence and Technology - Bechalor of Engineering</div>
+          <div className='text-gray-700'>Computer Science and Technology - BEng</div>
           <div className='text-gray-700'>Liverpool - UK</div>
         </div>
       </div>
