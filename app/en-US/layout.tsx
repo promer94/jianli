@@ -9,7 +9,7 @@ const Roboto = Roboto_Serif({
 
 export const metadata = {
   title: 'Resume',
-  description: 'Resume of promer94',
+  description: 'Resume of YixuanXu',
 }
 
 export default function RootLayout({
