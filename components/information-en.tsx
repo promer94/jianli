@@ -1,4 +1,4 @@
-import { Mail, Phone, Github, Linkedin } from 'lucide-react'
+import { Mail, Phone, Github } from 'lucide-react'
 
 
 const MailSection = ({ data = '', href = '' }: { data?: string, href?: string }) => {
@@ -53,7 +53,7 @@ export const Loading = () => {
 }
 
 export const InformationEn = () => {
-  const { name, mail, phone, linkedin } = {
+  const { name, mail, phone } = {
     name: 'Yixuan Xu',
     mail: {
       href: 'mailto:yixuanxu94@outlook.com',
@@ -62,10 +62,6 @@ export const InformationEn = () => {
     phone: {
       href: 'tel:+8617386135610',
       data: '+86 173 8613 5610'
-    },
-    linkedin: {
-      href: 'https://www.linkedin.com/in/yixuanxu94/',
-      data: 'Linkedin'
     }
   }
   return (
@@ -80,7 +76,6 @@ export const InformationEn = () => {
           <Github size={14} className='md:hidden'></Github>
           <span>GitHub</span>
         </a>
-        <LinkedinSection {...linkedin}></LinkedinSection>
       </div>
     </section>
   )
