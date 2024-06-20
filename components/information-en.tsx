@@ -1,4 +1,4 @@
-import { Mail, Phone, Github } from 'lucide-react'
+import { Mail, Phone, Github, Linkedin } from 'lucide-react'
 
 
 const MailSection = ({ data = '', href = '' }: { data?: string, href?: string }) => {
