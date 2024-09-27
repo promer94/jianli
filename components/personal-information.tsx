@@ -72,17 +72,17 @@ export const Loading = () => {
 
 export const PersonalInformation = () => {
   const { name, mail, phone, linkedin } = {
-    name: 'promer94',
+    name: '许一旋',
     mail: {
-      href: '',
-      data: ''
+      href: 'mailto:yixuanxu94@outlook.com',
+      data: 'yixuanxu94@outlook.com'
     },
     phone: {
-      href: '',
-      data: ''
+      href: 'tel:+8617386135610',
+      data: '17386135610'
     },
     linkedin: {
-      href: '',
+      href: 'https://www.linkedin.com/in/promer94',
       data: '领英'
     }
   }

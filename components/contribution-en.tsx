@@ -10,6 +10,20 @@ export const Contribution = () => {
       </div>
       <div className='my-4 md:my-6'>
         <div className='flex justify-between items-center md:text-xl'>
+          <div className='font-medium md:text-xl'>DeID PTE. LTD</div>
+        </div>
+        <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
+          <ul>
+            <li>Developed the company’s front-end monorepo solution and helped with the migration of the business framework from Vue to React.</li>
+            <li>Built the company’s front-end CI/CD standard process from scratch using GitHub Action, Cloudflare, and Vercel.</li>
+            <li>Optimized the build and distribution strategy of the company’s public SDK, reducing the SDK size by 50%. Enhanced the SDK’s SSR (Server-Side Rendering) compatibility, addressing issues related to its usage in server-side rendering frameworks like Next.js.
+            </li>
+            <li>Responsible for the development of both front-end and back-end, as well as the React Native mobile app, for the .bit ecosystem projects Voty and Padge.</li>
+          </ul>
+        </div>
+      </div>
+      <div className='my-4 md:my-6'>
+        <div className='flex justify-between items-center md:text-xl'>
           <div className='font-medium md:text-xl'>Tencent</div>
         </div>
         <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
