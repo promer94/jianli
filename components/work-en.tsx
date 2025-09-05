@@ -9,8 +9,27 @@ export const Work = () => {
       </div>
       <div className='my-4 md:my-6'>
         <div className='flex justify-between items-center md:text-xl'>
+          <div className='font-medium md:text-xl'>Workstream</div>
+          <div className='text-gray-700 text-sm md:text-lg'>2024.11 ~ 2025.10</div>
+        </div>
+        <div className='text-gray-700 text-sm md:text-lg'>Senior Software Engineer</div>
+        <div className='my-4 prose prose-sm prose-neutral max-w-none md:prose-base'>
+          <p>Responsible for the development of Workstream’s US App (Android/iOS/Web) using Flutter, as well as the BFF (Backend-for-Frontend) layer. Collaborated closely with product and design teams to deliver user-friendly workflows for workforce management, improving usability and adoption in US-based customers.</p>
+          <ul>
+            <li>Developed and maintained the Workstream US App with Flutter, ensuring smooth cross-platform delivery and native-like performance across Android and iOS.</li>
+            <li>Led the development of the time-shift module, covering key features such as employee scheduling, clock in/out tracking, and time-off request management.
+            </li>
+            <li>
+              Optimized the GitHub Action workflow by decoupling iOS, Android, and Web build pipelines, reducing build speed by 20% and cutting build costs by 50%.
+            </li>
+            <li>Integrated Datadog monitoring for the mobile app, enabling real-time error tracking in production, which significantly improved user login success rates and reduced crash incidents.</li>
+          </ul>
+        </div>
+      </div>
+      <div className='my-4 md:my-6'>
+        <div className='flex justify-between items-center md:text-xl'>
           <div className='font-medium md:text-xl'>DeID PTE. LTD</div>
-          <div className='text-gray-700 text-sm md:text-lg'>2023.06 ~ 2024.10</div>
+          <div className='text-gray-700 text-sm md:text-lg'>2023.07 ~ 2024.10</div>
         </div>
         <div className='text-gray-700 text-sm md:text-lg'>Fullstack Engineer</div>
         <div className='my-4 prose prose-sm prose-neutral max-w-none md:prose-base'>

@@ -8,6 +8,19 @@ export const Contribution = () => {
         <ChefHat size={20}></ChefHat>
         <div className='flex-1 h-[1px] bg-black'></div>
       </div>
+       <div className='my-4 md:my-6'>
+        <div className='flex justify-between items-center md:text-xl'>
+          <div className='font-medium md:text-xl'>Workstream</div>
+        </div>
+        <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
+          <ul>
+            <li>使用 Flutter 开发和维护 Workstream US App，保障跨平台应用在 Android 和 iOS 上的平滑交付与原生级性能体验。</li>
+            <li>主导 Time Shift 模块的开发，涵盖员工排班、上下班打卡、请假申请等核心功能。</li>
+            <li>优化 GitHub Action workflow，通过解耦 iOS、Android 和 Web 的构建流程，使构建速度提升 20%，构建费用降低 50%。</li>
+            <li>为移动端应用接入 Datadog 监控，支持生产环境实时错误追踪，显著提升用户登录成功率并减少崩溃率。</li>
+          </ul>
+        </div>
+      </div>
       <div className='my-4 md:my-6'>
         <div className='flex justify-between items-center md:text-xl'>
           <div className='font-medium md:text-xl'>DeID PTE. LTD</div>

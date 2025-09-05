@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.6.1",
+    "@icons-pack/react-simple-icons": "^13.7.0",
     "@vercel/edge-config": "^1.4.0",
     "@vercel/og": "^1.0.0",
     "lucide-react": "^0.542.0",

@@ -1,4 +1,6 @@
-import { Mail, Phone, Github, Linkedin } from 'lucide-react'
+import { Mail, Phone, Linkedin } from 'lucide-react'
+
+import { SiGithub as Github } from '@icons-pack/react-simple-icons'
 
 interface EdgeConfigItem {
   name: string;

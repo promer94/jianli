@@ -10,8 +10,18 @@ export const Work = () => {
       </div>
       <div className='my-4 md:my-6'>
         <div className='flex justify-between items-center md:text-xl'>
+          <div className='font-medium md:text-xl'>Workstream</div>
+          <div className='text-gray-700 text-sm md:text-lg'>2024.11 ~ 2025.10</div>
+        </div>
+        <div className='text-gray-700 text-sm md:text-lg'>全栈工程师</div>
+        <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
+          <p>负责开发和维护 Workstream US App（Android/iOS), 与产品和设计团队紧密合作，为美国当地和中国出海企业提供劳动力一站式解决方案。</p>
+        </div>
+      </div>
+      <div className='my-4 md:my-6'>
+        <div className='flex justify-between items-center md:text-xl'>
           <div className='font-medium md:text-xl'>DeID PTE. LTD.</div>
-          <div className='text-gray-700 text-sm md:text-lg'>2023.06 ~ 2024.10</div>
+          <div className='text-gray-700 text-sm md:text-lg'>2023.07 ~ 2024.11</div>
         </div>
         <div className='text-gray-700 text-sm md:text-lg'>全栈工程师</div>
         <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
@@ -21,7 +31,7 @@ export const Work = () => {
       <div className='my-4 md:my-6'>
         <div className='flex justify-between items-center md:text-xl'>
           <div className='font-medium md:text-xl'>腾讯</div>
-          <div className='text-gray-700 text-sm md:text-lg'>2021.06 ~ 2023.05</div>
+          <div className='text-gray-700 text-sm md:text-lg'>2021.06 ~ 2023.06</div>
         </div>
         <div className='text-gray-700 text-sm md:text-lg'>高级前端工程师 - IEG</div>
         <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
