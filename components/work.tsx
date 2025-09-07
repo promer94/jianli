@@ -15,7 +15,7 @@ export const Work = () => {
         </div>
         <div className='text-gray-700 text-sm md:text-lg'>全栈工程师</div>
         <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
-          <p>负责开发和维护 Workstream US App（Android/iOS), 与产品和设计团队紧密合作，为美国当地和中国出海企业提供劳动力一站式解决方案。</p>
+          <p>负责开发和维护 Workstream US App（Android/iOS), 负责 Time scheduling 的模块的开发维护工作和移动端应用的基础设施建设。</p>
         </div>
       </div>
       <div className='my-4 md:my-6'>
