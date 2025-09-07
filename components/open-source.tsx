@@ -102,8 +102,7 @@ export const OpenSource = () => {
           </a>
         </div>
         <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
-          <a href="https://github.com/promer94/turbocache">Turbocache</a> 是一个 monorepo 远端缓存的服务端实现，可用于加速 Turborepo，Rush 和 Nx 等 monorepo 构建工具的构建速度。使用 Next.js 、PlantScale 和 Cloudflare R1 实现。
-          通过 Vercel，PlantScale 和 Cloudflare 的免费额度，你可以快速的部署一个 Turbocache 应用，用来加速你的 Monorepo。
+          <a href="https://github.com/promer94/turbocache">Turbocache</a> 是一个 monorepo 远端缓存的服务端实现，可用于加速 Turborepo，Rush 和 Nx 等 monorepo 构建工具的构建速度。你可以快速的部署一个 Turbocache 应用，用来加速你的 Monorepo。
         </div>
       </div>
     </div>

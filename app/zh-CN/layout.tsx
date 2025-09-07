@@ -7,8 +7,8 @@ const Noto = Noto_Serif_SC({
 })
 
 export const metadata = {
-  title: '简历-全栈工程师',
-  description: '许一旋-全栈工程师',
+  title: '简历-软件工程师',
+  description: '许一旋-软件工程师',
 }
 
 export default function RootLayout({

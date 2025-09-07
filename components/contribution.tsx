@@ -14,10 +14,10 @@ export const Contribution = () => {
         </div>
         <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
           <ul>
-            <li>使用 Flutter 开发和维护 Workstream US App，保障跨平台应用在 Android 和 iOS 上的平滑交付与原生级性能体验。</li>
+            <li>负责 Workstream US App（Flutter，iOS/Android）与 BFF 的核心功能与平台化建设。</li>
             <li>主导 Time Shift 模块的开发，涵盖员工排班、上下班打卡、请假申请等核心功能。</li>
-            <li>优化 GitHub Action workflow，通过解耦 iOS、Android 和 Web 的构建流程，使构建速度提升 20%，构建费用降低 50%。</li>
-            <li>为移动端应用接入 Datadog 监控，支持生产环境实时错误追踪，显著提升用户登录成功率并减少崩溃率。</li>
+            <li>重构 GitHub Actions：iOS/Android/Web 三线解耦 + 缓存优化，构建时间 -20%、CI 成本 -50%，提升测试效率。</li>
+            <li>使用 Datadog RUM & Crash：显著提升登录成功率与 Crash-free 用户占比，定位并修复跨端兼容问题（深链、权限、通知）。</li>
           </ul>
         </div>
       </div>
@@ -53,9 +53,8 @@ export const Contribution = () => {
         </div>
         <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
           <ul>
-            <li>使用 React Native 开发了招商头条的 iOS 和 Android 应用，开发了用于 React Native 的热更新服务。</li>
-            <li>编写了项目 CLI 用于快速修改版本号，启动屏和应用图标。</li>
-            <li>使用 React 开发了财务管理平台的网页端和移动端。建立了基于 React 和 TypeScript 的管理端脚手架。</li>
+            <li>使用 React Native 开发「招商头条」 iOS/Android；自研 RN 热更新服务与项目 CLI。</li>
+            <li>使用 React + TypeScript 建设财务管理平台的 Web/移动端，抽象管理端脚手架与工程规范。</li>
           </ul>
         </div>
       </div>
