@@ -54,4 +54,7 @@ export const config = {
     '/((?!_next).*)',
     '/'
   ],
+  runtime: 'nodejs'
 }
+
+
