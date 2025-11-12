@@ -1,19 +1,43 @@
 import { Briefcase } from 'lucide-react'
 export const Work = () => {
   return (
-    <div className='my-4 md:my-6'>
-      <div className='flex gap-4 items-center'>
-        <div className='text-xl md:text-2xl font-semibold'>EXPERIENCE</div>
+    <div className={`
+      my-4
+      md:my-6
+    `}>
+      <div className='flex items-center gap-4'>
+        <div className={`
+          text-xl font-semibold
+          md:text-2xl
+        `}>EXPERIENCE</div>
         <Briefcase size={20}></Briefcase>
-        <div className='flex-1 h-[1px] bg-black'></div>
+        <div className='h-px flex-1 bg-black'></div>
       </div>
-      <div className='my-4 md:my-6'>
-        <div className='flex justify-between items-center md:text-xl'>
-          <div className='font-medium md:text-xl'>Workstream</div>
-          <div className='text-gray-700 text-sm md:text-lg'>2024.11 ~ 2025.10</div>
+      <div className={`
+        my-4
+        md:my-6
+      `}>
+        <div className={`
+          flex items-center justify-between
+          md:text-xl
+        `}>
+          <div className={`
+            font-medium
+            md:text-xl
+          `}>Workstream</div>
+          <div className={`
+            text-sm text-gray-700
+            md:text-lg
+          `}>2024.11 ~ 2025.10</div>
         </div>
-        <div className='text-gray-700 text-sm md:text-lg'>Senior Software Engineer</div>
-        <div className='my-4 prose prose-sm prose-neutral max-w-none md:prose-base'>
+        <div className={`
+          text-sm text-gray-700
+          md:text-lg
+        `}>Senior Software Engineer</div>
+        <div className={`
+          my-4 prose prose-sm max-w-none prose-neutral
+          md:prose-base
+        `}>
           <p>Responsible for the development of Workstream’s US App (Android/iOS/Web) using Flutter, as well as the BFF (Backend-for-Frontend) layer. Collaborated closely with product and design teams to deliver user-friendly workflows for workforce management, improving usability and adoption in US-based customers.</p>
           <ul>
             <li>Developed and maintained the Workstream US App with Flutter, ensuring smooth cross-platform delivery and native-like performance across Android and iOS.</li>
@@ -26,13 +50,31 @@ export const Work = () => {
           </ul>
         </div>
       </div>
-      <div className='my-4 md:my-6'>
-        <div className='flex justify-between items-center md:text-xl'>
-          <div className='font-medium md:text-xl'>DeID PTE. LTD</div>
-          <div className='text-gray-700 text-sm md:text-lg'>2023.07 ~ 2024.10</div>
+      <div className={`
+        my-4
+        md:my-6
+      `}>
+        <div className={`
+          flex items-center justify-between
+          md:text-xl
+        `}>
+          <div className={`
+            font-medium
+            md:text-xl
+          `}>DeID PTE. LTD</div>
+          <div className={`
+            text-sm text-gray-700
+            md:text-lg
+          `}>2023.07 ~ 2024.10</div>
         </div>
-        <div className='text-gray-700 text-sm md:text-lg'>Fullstack Engineer</div>
-        <div className='my-4 prose prose-sm prose-neutral max-w-none md:prose-base'>
+        <div className={`
+          text-sm text-gray-700
+          md:text-lg
+        `}>Fullstack Engineer</div>
+        <div className={`
+          my-4 prose prose-sm max-w-none prose-neutral
+          md:prose-base
+        `}>
           <p>Responsible for the business development of the company’s decentralized identity platform and achievement network, maintaining and building the open-source SDKs and infrastructure.</p>
           <ul>
             <li>Developed the company’s front-end monorepo solution and helped with the migration of the business framework from Vue to React.</li>
@@ -43,13 +85,31 @@ export const Work = () => {
           </ul>
         </div>
       </div>
-      <div className='my-4 md:my-6'>
-        <div className='flex justify-between items-center md:text-xl'>
-          <div className='font-medium md:text-xl'>Tencent</div>
-          <div className='text-gray-700 text-sm md:text-lg'>2021.06 ~ 2023.06</div>
+      <div className={`
+        my-4
+        md:my-6
+      `}>
+        <div className={`
+          flex items-center justify-between
+          md:text-xl
+        `}>
+          <div className={`
+            font-medium
+            md:text-xl
+          `}>Tencent</div>
+          <div className={`
+            text-sm text-gray-700
+            md:text-lg
+          `}>2021.06 ~ 2023.06</div>
         </div>
-        <div className='text-gray-700 text-sm md:text-lg'>Senior Frontend Engineer - IEG</div>
-        <div className='my-4 prose prose-sm prose-neutral max-w-none md:prose-base'>
+        <div className={`
+          text-sm text-gray-700
+          md:text-lg
+        `}>Senior Frontend Engineer - IEG</div>
+        <div className={`
+          my-4 prose prose-sm max-w-none prose-neutral
+          md:prose-base
+        `}>
           <p>Responsible for the development of game growth platform, mainly participating in the infrastructure construction, performance optimization and feature development.</p>
           <ul>
             <li>Developed and maintained core modules for the game growth platform, supporting automated advertisement campaigns for major titles like League of Legends: Wild Rift, Golden Shovel, etc.</li>
@@ -60,13 +120,31 @@ export const Work = () => {
           </ul>
         </div>
       </div>
-      <div className='my-4 md:my-6'>
-        <div className='flex justify-between items-center md:text-xl'>
-          <div className='font-medium md:text-xl'>CMGFintech</div>
-          <div className='text-gray-700 text-sm md:text-lg'>2018.12 ~ 2021.05</div>
+      <div className={`
+        my-4
+        md:my-6
+      `}>
+        <div className={`
+          flex items-center justify-between
+          md:text-xl
+        `}>
+          <div className={`
+            font-medium
+            md:text-xl
+          `}>CMGFintech</div>
+          <div className={`
+            text-sm text-gray-700
+            md:text-lg
+          `}>2018.12 ~ 2021.05</div>
         </div>
-        <div className='text-gray-700 text-sm md:text-lg'>Software Engnieer - Innovation Centre</div>
-        <div className='my-4 prose prose-sm prose-neutral max-w-none md:prose-base'>
+        <div className={`
+          text-sm text-gray-700
+          md:text-lg
+        `}>Software Engnieer - Innovation Centre</div>
+        <div className={`
+          my-4 prose prose-sm max-w-none prose-neutral
+          md:prose-base
+        `}>
           <ul>
             <li>Developed CMB Headlines IOS and Android App using React Native and TypeScript.</li>
             <li>Developed Financial Intelligence Platform, contributing to frontend and backend.</li>

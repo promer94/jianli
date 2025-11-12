@@ -2,17 +2,35 @@ import { ChefHat } from 'lucide-react'
 
 export const Contribution = () => {
   return (
-    <div className='my-4 md:my-6'>
-      <div className='flex gap-4 items-center'>
-        <div className='text-xl md:text-2xl font-semibold'>Contributions</div>
+    <div className={`
+      my-4
+      md:my-6
+    `}>
+      <div className='flex items-center gap-4'>
+        <div className={`
+          text-xl font-semibold
+          md:text-2xl
+        `}>Contributions</div>
         <ChefHat size={20}></ChefHat>
-        <div className='flex-1 h-[1px] bg-black'></div>
+        <div className='h-px flex-1 bg-black'></div>
       </div>
-      <div className='my-4 md:my-6'>
-        <div className='flex justify-between items-center md:text-xl'>
-          <div className='font-medium md:text-xl'>DeID PTE. LTD</div>
+      <div className={`
+        my-4
+        md:my-6
+      `}>
+        <div className={`
+          flex items-center justify-between
+          md:text-xl
+        `}>
+          <div className={`
+            font-medium
+            md:text-xl
+          `}>DeID PTE. LTD</div>
         </div>
-        <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
+        <div className={`
+          my-2 prose prose-sm max-w-none prose-neutral
+          md:prose-base
+        `}>
           <ul>
             <li>Developed the company’s front-end monorepo solution and helped with the migration of the business framework from Vue to React.</li>
             <li>Built the company’s front-end CI/CD standard process from scratch using GitHub Action, Cloudflare, and Vercel.</li>
@@ -22,11 +40,23 @@ export const Contribution = () => {
           </ul>
         </div>
       </div>
-      <div className='my-4 md:my-6'>
-        <div className='flex justify-between items-center md:text-xl'>
-          <div className='font-medium md:text-xl'>Tencent</div>
+      <div className={`
+        my-4
+        md:my-6
+      `}>
+        <div className={`
+          flex items-center justify-between
+          md:text-xl
+        `}>
+          <div className={`
+            font-medium
+            md:text-xl
+          `}>Tencent</div>
         </div>
-        <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
+        <div className={`
+          my-2 prose prose-sm max-w-none prose-neutral
+          md:prose-base
+        `}>
           <ul>
             <li>Developed and maintained core modules for the game growth platform, supporting automated advertisement campaigns for major titles like League of Legends: Wild Rift, Golden Shovel, etc.</li>
             <li>Researched and optimized build speeds, doubling build performance. Generalized upgrade strategies and promoted them for use in other department projects.
@@ -36,11 +66,23 @@ export const Contribution = () => {
           </ul>
         </div>
       </div>
-      <div className='my-4 md:my-6'>
-        <div className='flex justify-between items-center md:text-xl'>
-          <div className='font-medium md:text-xl'>CMGFintech</div>
+      <div className={`
+        my-4
+        md:my-6
+      `}>
+        <div className={`
+          flex items-center justify-between
+          md:text-xl
+        `}>
+          <div className={`
+            font-medium
+            md:text-xl
+          `}>CMGFintech</div>
         </div>
-        <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
+        <div className={`
+          my-2 prose prose-sm max-w-none prose-neutral
+          md:prose-base
+        `}>
           <ul>
             <li>Developed CMB Headlines using React Native and TypeScript</li>
             <li>Developed Financial Intelligence Platform, contributing to frontend and backend.</li>

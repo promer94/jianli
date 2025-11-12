@@ -2,17 +2,35 @@ import { ChefHat } from 'lucide-react'
 
 export const Contribution = () => {
   return (
-    <div className='my-4 md:my-6'>
-      <div className='flex gap-4 items-center'>
-        <div className='text-xl md:text-2xl font-semibold'>工作内容</div>
+    <div className={`
+      my-4
+      md:my-6
+    `}>
+      <div className='flex items-center gap-4'>
+        <div className={`
+          text-xl font-semibold
+          md:text-2xl
+        `}>工作内容</div>
         <ChefHat size={20}></ChefHat>
-        <div className='flex-1 h-[1px] bg-black'></div>
+        <div className='h-px flex-1 bg-black'></div>
       </div>
-       <div className='my-4 md:my-6'>
-        <div className='flex justify-between items-center md:text-xl'>
-          <div className='font-medium md:text-xl'>Workstream</div>
+       <div className={`
+         my-4
+         md:my-6
+       `}>
+        <div className={`
+          flex items-center justify-between
+          md:text-xl
+        `}>
+          <div className={`
+            font-medium
+            md:text-xl
+          `}>Workstream</div>
         </div>
-        <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
+        <div className={`
+          my-2 prose prose-sm max-w-none prose-neutral
+          md:prose-base
+        `}>
           <ul>
             <li>负责 Workstream US App（Flutter，iOS/Android）与 BFF 的核心功能与平台化建设。</li>
             <li>主导 Time Shift 模块的开发，涵盖员工排班、上下班打卡、请假申请等核心功能。</li>
@@ -21,11 +39,23 @@ export const Contribution = () => {
           </ul>
         </div>
       </div>
-      <div className='my-4 md:my-6'>
-        <div className='flex justify-between items-center md:text-xl'>
-          <div className='font-medium md:text-xl'>DeID PTE. LTD</div>
+      <div className={`
+        my-4
+        md:my-6
+      `}>
+        <div className={`
+          flex items-center justify-between
+          md:text-xl
+        `}>
+          <div className={`
+            font-medium
+            md:text-xl
+          `}>DeID PTE. LTD</div>
         </div>
-        <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
+        <div className={`
+          my-2 prose prose-sm max-w-none prose-neutral
+          md:prose-base
+        `}>
           <ul>
             <li>建设了公司前端业务的 monorepo 方案，帮助完成了业务框架从 Vue 到 React 的重构。</li>
             <li>基于 Github Action, Cloudflare 和 Vercel 从 0 到 1 搭建了公司前端 CI/CD 的标准流程。</li>
@@ -34,11 +64,23 @@ export const Contribution = () => {
           </ul>
         </div>
       </div>
-      <div className='my-4 md:my-6'>
-        <div className='flex justify-between items-center md:text-xl'>
-          <div className='font-medium md:text-xl'>腾讯</div>
+      <div className={`
+        my-4
+        md:my-6
+      `}>
+        <div className={`
+          flex items-center justify-between
+          md:text-xl
+        `}>
+          <div className={`
+            font-medium
+            md:text-xl
+          `}>腾讯</div>
         </div>
-        <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
+        <div className={`
+          my-2 prose prose-sm max-w-none prose-neutral
+          md:prose-base
+        `}>
           <ul>
             <li>负责增长平台中核心投放模块的开发和维护工作。成功支撑了英雄联盟手游，金铲铲手游和光与夜之恋等多个重点项目的程序化广告投放。</li>
             <li>在开发过程中，针对构建缓慢的问题进行了调研和优化，最终将构建速度提升一倍。整理总结了通用的升级方案，推广到部门多个项目使用。</li>
@@ -47,11 +89,23 @@ export const Contribution = () => {
           </ul>
         </div>
       </div>
-      <div className='my-4 md:my-6'>
-        <div className='flex justify-between items-center md:text-xl'>
-          <div className='font-medium md:text-xl'>招商金科</div>
+      <div className={`
+        my-4
+        md:my-6
+      `}>
+        <div className={`
+          flex items-center justify-between
+          md:text-xl
+        `}>
+          <div className={`
+            font-medium
+            md:text-xl
+          `}>招商金科</div>
         </div>
-        <div className='my-2 prose prose-sm prose-neutral max-w-none md:prose-base'>
+        <div className={`
+          my-2 prose prose-sm max-w-none prose-neutral
+          md:prose-base
+        `}>
           <ul>
             <li>使用 React Native 开发「招商头条」 iOS/Android；自研 RN 热更新服务与项目 CLI。</li>
             <li>使用 React + TypeScript 建设财务管理平台的 Web/移动端，抽象管理端脚手架与工程规范。</li>
