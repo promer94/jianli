@@ -4,7 +4,7 @@ import { Roboto_Serif } from 'next/font/google'
 const Roboto = Roboto_Serif({
   subsets: ['latin'],
   weight: ['400', '500', '700'],
-  variable: '--font-serif-sc',
+  variable: '--font-serif-en',
   display: 'block'
 })
 
@@ -23,7 +23,7 @@ export default function RootLayout({
       mx-auto p-5
       md:my-10 md:w-1/2 md:p-0
       ${Roboto.variable}
-      font-sans
+      font-en-sans
     `}>
       {children}
     </main>

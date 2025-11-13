@@ -22,7 +22,7 @@ export default function RootLayout({
       mx-auto p-5
       md:my-10 md:w-1/2 md:p-0
       ${Noto.variable}
-      font-sans
+      font-cn-sans
     `}>
       {children}
     </main>

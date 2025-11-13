@@ -2,5 +2,6 @@
 @plugin "@tailwindcss/typography";
 
 @theme inline {
-  --font-sans: var(--font-serif-sc);
+  --font-en-sans: var(--font-serif-en), var(--font-sans);
+  --font-cn-sans: var(--font-serif-sc), var(--font-sans);
 }
